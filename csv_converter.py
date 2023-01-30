@@ -28,7 +28,7 @@ first_sheet = wb[wb.sheetnames[0]]
 
 first_sheet.delete_rows(0)
 
-with open('C://tools//fastload//LOAD.csv','w', newline='') as csvfile:
+with open(file,'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile,
                            delimiter='|',
                            )
